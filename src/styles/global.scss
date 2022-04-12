@@ -1,0 +1,9 @@
+@import './colors';
+@import './media-queries';
+@import './typography';
+
+html,
+body {
+  font-family: AIAEverest;
+  color: $Black;
+}
