@@ -21,7 +21,7 @@
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "react-use-face-detection": "^0.0.10",
+    "react-use-face-detection": "^1.0.0",
     "react-webcam": "^7.0.1",
     "redux": "^4.1.2",
     "redux-devtools-extension": "^2.13.9",
