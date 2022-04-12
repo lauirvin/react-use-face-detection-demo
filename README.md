@@ -1,32 +1,15 @@
 <p align="center">
-  <a href="https://github.com/lauirvin/reactjs-typescript-boilerplate">
-    <img alt="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="150" />
+  <a href="https://github.com/lauirvin/react-use-face-detection-demo">
+    <img alt="logo" src="https://i.imgur.com/XSTefBB.png" width="150" />
   </a>
 </p>
 <h1 align="center">
-  ReactJS TypeScript Boilerplate
+   useFaceDetection hook demo
 </h1>
 
 # 📚 Introduction
 
-This is a ReactJS boilerplate project bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-The intention of this boilerplate is for creating a template with the essential libraries such as Typescript, React Query, Redux Thunk setup and ready to use right off the bat.
-
-# 🧰 Prerequisites
-
-## Project Dependencies
-
-1. Install [NodeJS](https://nodejs.org/en/)
-2. Install [nvm](https://github.com/nvm-sh/nvm)
-3. Install and use NodeJS v16.9.0 with nvm
-
-```
-nvm install 16.9.0 && nvm use 16.9.0
-```
-
-4. Install [yarn](https://classic.yarnpkg.com/en/)
-5. Install [Prettier ESLint VSCode Extension:](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
+Demo of how to use the useFaceDetection hook from [react-use-face-detection](https://www.npmjs.com/package/react-use-face-detection) - this project consists of both examples of detecting faces in an HTMLImageElement and a video source from [react-webcam](https://www.npmjs.com/package/react-webcam)
 
 # 🚀 Development
 
@@ -39,7 +22,11 @@ nvm install 16.9.0 && nvm use 16.9.0
 yarn install
 ```
 
-3. Run `yarn dev` in the repository root directory
+3. Start development server
+
+```
+yarn dev
+```
 
 ## Prettier & ESLint
 
@@ -63,12 +50,22 @@ yarn lint:fix
 
 <br/>
 
+# 📦 Production
+
+### Build project
+
+```
+yarn build
+```
+
 # 👷🏻‍♂️ Built With
 
 - [ReactJS v17](https://reactjs.org/) - Frontend Javascript web framework
 - [TypeScript](https://www.typescriptlang.org/) - Open-source language which builds on JavaScript
-- [React Query](https://react-query.tanstack.com/) - Data fetching and caching library
-- [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Redux state management middleware
+- [react-use-face-detection](https://www.npmjs.com/package/react-use-face-detection) - React Face detection hook library
+- [react-webcam](https://www.npmjs.com/package/react-webcam) - Webcam library
+- [MediaPipe Face Detection](https://www.npmjs.com/package/@mediapipe/face_detection) - ML Model library
+- [MediaPipe Camera Utils](https://www.npmjs.com/package/@mediapipe/camera_utils) - Camera Utility for ML Model library
 
 # 👨🏻‍🎨 Author
 
