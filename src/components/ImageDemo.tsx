@@ -16,7 +16,7 @@ const ImageDemo = (): JSX.Element => {
       <p>{`Loading: ${isLoading}`}</p>
       <p>{`Face Detected: ${detected}`}</p>
       <p>{`Number of faces detected: ${facesDetected}`}</p>
-      <div style={{ width: '50vw', height: '50vh', position: 'relative' }}>
+      <div style={{ width: '100vw', height: '100vh', position: 'relative' }}>
         {boundingBox.map((box, index) => (
           <div
             key={`${index + 1}`}
