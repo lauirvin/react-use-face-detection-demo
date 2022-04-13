@@ -24,7 +24,7 @@ const WebcamDemo = (): JSX.Element => {
       <p>{`Loading: ${isLoading}`}</p>
       <p>{`Face Detected: ${detected}`}</p>
       <p>{`Number of faces detected: ${facesDetected}`}</p>
-      <div style={{ width: '100vw', height: '100vh', position: 'relative' }}>
+      <div style={{ width: '100%', height: '500px', position: 'relative' }}>
         {boundingBox.map((box, index) => (
           <div
             key={`${index + 1}`}
@@ -41,16 +41,13 @@ const WebcamDemo = (): JSX.Element => {
         ))}
         <Webcam
           ref={webcamRef}
+          width="100%"
+          height="500px"
           style={{
-            position: 'absolute',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            left: '0',
-            right: '0',
-            textAlign: 'center',
-            width: '100%',
             height: '100%',
-            objectFit: 'fill',
+            width: '100%',
+            objectFit: 'cover',
+            position: 'absolute',
           }}
         />
       </div>
