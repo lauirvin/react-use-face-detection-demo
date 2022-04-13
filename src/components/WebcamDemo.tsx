@@ -41,12 +41,11 @@ const WebcamDemo = (): JSX.Element => {
         ))}
         <Webcam
           ref={webcamRef}
-          width="100%"
-          height="500px"
+          forceScreenshotSourceSize
           style={{
             height: '100%',
             width: '100%',
-            objectFit: 'cover',
+            // objectFit: 'cover',
             position: 'absolute',
           }}
         />
