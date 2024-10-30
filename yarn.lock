@@ -7984,10 +7984,10 @@ react-scripts@5.0.0:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-use-face-detection@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-use-face-detection/-/react-use-face-detection-1.0.0.tgz#5bdb7704f7dbb2fbfe29e805f9b1668084ad3d08"
-  integrity sha512-oJpUUKA8R2IZnMDm9y4Ewi3aLkSZQkW0ytk62mrZGGZA2tdJwXTVoEUliF+LKiiNYSksrsv2EkFCz6NapGfnhw==
+react-use-face-detection@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-use-face-detection/-/react-use-face-detection-1.0.2.tgz#de3ad2baae501992796b96da53fbc878d82fe827"
+  integrity sha512-/zYYasrwFG7sSwIpVP1eSZsSyTjKMcQwffyhiB2grYrUDNGOR9Vgm1SiJxLC18KPQ78mK0rhlK7EyIqri50XUw==
   dependencies:
     "@mediapipe/camera_utils" "^0.3.1640029074"
     "@mediapipe/face_detection" "^0.4.1646425229"
